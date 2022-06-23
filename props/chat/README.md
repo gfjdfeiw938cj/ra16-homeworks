@@ -1,8 +1,10 @@
+# ra-props-chat
+
 История чата
 ===
 
 Необходимо реализовать один из компонентов чата — историю сообщений:
-![Чат](./assets/preview.png)
+![Чат](https://github.com/222Alexa/ra16-homeworks/raw/master/props/chat/assets/preview.png)
 
 ## Данные
 
@@ -117,3 +119,7 @@ const messages = [{
 Необходимо реализовать компонет `MessageHistory`. Важно: вам нужно реализовать только список истории (аватарки и боковую панель реализовывать не нужно).
 
 Используйте файл из каталога css для стилизации.
+
+---
+
+[![Build status](https://ci.appveyor.com/api/projects/status/0xg5xtd9xyp6sadp/branch/main?svg=true)](https://ci.appveyor.com/project/222Alexa44925/ra-props-chat/branch/main)

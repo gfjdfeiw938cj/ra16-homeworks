@@ -1,42 +1,15 @@
-Рейтинг фильмов
-===
+# React
+### [Gh-Pages](https://tomsg03.github.io/ra-props-films/)
 
-Необходимо реализовать компонент отображающий рейтинг фильма в виде звезд:
-![Список фильмов](./assets/preview.png)
+[![CircleCI](https://circleci.com/gh/TomSG03/ra-props-films/tree/main.svg?style=svg)](https://circleci.com/gh/TomSG03/ra-props-films/tree/main)
+
+## [Домашнее задание к лекции «Props»](https://github.com/TomSG03/ra16-homeworks/tree/master/props)
+
+- [x] Рейтинг фильмов
+- [x] [Список предложений](https://github.com/TomSG03/ra-props-listing)
 
 
-## Описание компонента
+---
+[Спискок задач](https://github.com/TomSG03/ra-homeworks-list)
 
-Для отображения рейтинга создайте компонент `Stars`, который принимает следующие атрибуты:
-- `count` — рейтинг фильтам, _число_, по умолчанию `0`.
-
-Если рейтинг меньше `1` или больше `5`, или вообще не число, то компонент не должен иметь какого-либо представления в DOM.
-
-Звезды рейтинга должны быть представлены тегом `<ul>` с классом `card-body-stars`. Для отображения символа звезды внутри тега `<li>` используйте компонент `Star`.
-
-## Пример использования
-
-```jsx
-// Внутри App
-return (
-  <Stars count={1} />,
-);
-```
-
-Компонент должен дать следующий код:
-```html
-<ul class="card-body-stars u-clearfix">
-  <li>
-    <svg fill="#D3BCA2" height="28" viewBox="0 0 18 18" width="28" xmlns="http://www.w3.org/2000/svg">
-      <path d="M9 11.3l3.71 2.7-1.42-4.36L15 7h-4.55L9 2.5 7.55 7H3l3.71 2.64L5.29 14z"/>
-      <path d="M0 0h18v18H0z" fill="none"/>
-    </svg>
-  </li>
-</ul>
-```
-
-## Реализация
-
-Необходимо реализовать компонет `Stars` (не забудьте, что отдельная звезда должна быть представлена компонентом `Star`).
-
-Важно: вам нужно реализовать только отображение звездочек (карточку фильма не нужно).
+[Спискок курсов](https://github.com/TomSG03/Training-in-Netology)

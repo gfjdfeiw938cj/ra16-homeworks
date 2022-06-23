@@ -1,0 +1,13 @@
+.App {
+  max-width: 1023px;
+  min-width: 299px;
+  margin: 20px auto;
+}
+
+.card-body-stars {
+  list-style: none;
+}
+
+li {
+  display: inline-block;
+}
