@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+.App {
+  max-width: 1023px;
+  min-width: 500px;
+  margin: 20px auto;
+}
+
+.toolbar {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 20px;
+}
+
+button {
+  border: none;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+.material-icons {
+  color: gray;
+  font-size: 40px;
+}
+
+.gallery {
+  width: 100%; 
+}
+
+img {
+  max-width: 80%;
+}
+
+/* ShopCard */
+.card-view {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.shop-card {
+  box-sizing: border-box;
+  background-color: #F5F5F6;
+  margin-bottom: 30px;
+  text-align: center;
+  width: 300px;
+  height: 300px;
+  padding: 25px;
+  box-shadow: 0 8px 15px rgb(0 0 0 / 35%);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.shop-card > .content {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+}
+.content > .name {
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  font-size: 20px;
+  letter-spacing: -1px;
+  z-index: 10;
+}
+
+.content > .color {
+  color: gray;
+  z-index: 10;
+}
+
+.shop-card > .item-img {
+  position: absolute;
+  top: 10; 
+}
+
+.shop-card > .footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  z-index: 1;
+}
+
+/* ShopItem */
+.shop-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #F5F5F6;
+  margin-bottom: 10px;
+  padding: 0 20px;
+}
+
+.shop-item > .name {
+  text-transform: uppercase;
+  font-size: 20px;
+  letter-spacing: -1px;
+}
+
+.shop-item > .color {
+  color: gray;
+}
+
+.price {
+  color: red;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.shop-item > .item-img {
+  width: 100px;
+  height: 80px;
+  display: flex;
+}
+
+.add-btn {
+  background-color: #F5F5F6;
+  color: red;
+  border: 1px solid red;
+  border-radius: 20px;
+  text-transform: uppercase;
+  padding: 10px;
+  font-weight: bold;
+}
