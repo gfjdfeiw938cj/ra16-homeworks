@@ -1,16 +1,14 @@
-Конвертер цветов из HEX в RGB
-===
+# React
+### [Gh-Pages](https://tomsg03.github.io/ra-forms-hex2rgb/)
 
-Вам необходимо разработать конвертер цветов из HEX в RGB.
+[![CircleCI](https://circleci.com/gh/TomSG03/ra-forms-hex2rgb/tree/main.svg?style=svg)](https://circleci.com/gh/TomSG03/ra-forms-hex2rgb/tree/main)
 
-![Конвертер цветов](./assets/preview.png)
+## [Домашнее задание к лекции «Работа с формами»](https://github.com/TomSG03/ra16-homeworks/tree/master/forms)
 
-## Интерфейс конвертера
+- [x] Конвертер цветов
+- [x] [Учёт тренировок](https://github.com/TomSG03/ra-forms-steps)
 
-При правильном вводе цвета он показывает его представление в формате RGB и меняет цвет фона на заданный цвет:
-![Цвет](./assets/color.png)
+---
+[Спискок задач](https://github.com/TomSG03/ra-homeworks-list)
 
-Конвертер при вводе неправильного цвета в формате HEX должен сообщать об ошибке:
-![Ошибка](./assets/error.png)
-
-Необходимо дожидаться ввода всех 7-ми символов (включая решётку), чтобы принимать решение о том, показывать ошибку или менять цвет фона.
+[Спискок курсов](https://github.com/TomSG03/Training-in-Netology)

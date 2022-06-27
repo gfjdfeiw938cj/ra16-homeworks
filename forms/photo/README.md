@@ -1,44 +1,39 @@
-Менеджер фото
-===
+[![Build status](https://ci.appveyor.com/api/projects/status/jq0mbuo9whtb3qvl?svg=true)](https://ci.appveyor.com/project/errand/ra16-forms-photo)
 
-Вы решили модернизировать один из старых проектов и переписать его в виде React-компонентов:
+[GH Pages](https://errand.github.io/ra16-forms-photo/)
+## Available Scripts
 
-![Менеджер фото](./assets/image.png)
+In the project directory, you can run:
 
-## Интерфейс Менеджера фото
+### `npm start`
 
-При клике на области "Click to select" должно появляться стандартное окно выбора файлов операционной системы, в котором пользователь может выбрать один или несколько файлов изображений (image/*).
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-После выбора файлов они автоматически загружаются и отображаются в виде preview фиксированного размера (нижний блок). Для отображения используйте DataURL. Новый файлы должны добавляться (не заменять предыдущие).
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-При клике на крестик, изображение (и все связанные с ним данные) должны удаляться.
+### `npm test`
 
-Важно: Drag & Drop реализовывать не нужно.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-## Подсказки
+### `npm run build`
 
-1. Разместите с помощью CSS блок "Click to select" над `<input type="file" />` и установите этому блоку `pointer-events: none;`, чтобы вызывать окошко выбора файлов при клике.
-1. Используйте следующую заготовку, для получения DataUrl:
-```js
-const fileToDataUrl = file => {
-  return new Promise((resolve, reject) => {
-    const fileReader = new FileReader();
-  
-    fileReader.addEventListener('load', evt => {
-      resolve(evt.currentTarget.result);
-    });
-    
-    fileReader.addEventListener('error', evt => {
-      reject(new Error(evt.currentTarget.error));
-    });
-    
-    fileReader.readAsDataURL(file);
-  });
-}
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-const handleSelect = async (evt) => {
-    const files = [...evt.target.files];
-    const urls = await Promise.all(files.map(o => fileToDataUrl(o)));
-    // У вас в массиве - dataUrl, можете использовать в качестве значения атрибута src тега img
-}
-```
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `npm run eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.

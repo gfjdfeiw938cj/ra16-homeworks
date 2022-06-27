@@ -1,0 +1,29 @@
+.converter {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.converter-form {
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.converter-input {
+  font-size: 20px;
+  padding: 10px 15px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.converter-label {
+  font-size: 20px;
+  padding: 10px 15px;
+  text-align: center;
+  background-color: black;
+  opacity: 0.45;
+  color: white;
+}
