@@ -1,8 +1,7 @@
-[![Build status](https://ci.appveyor.com/api/projects/status/xm3xva2quu3at6ar?svg=true)](https://ci.appveyor.com/project/errand/ra16-lifecycle-http-watches)
-
-[GH-Pages](https://errand.github.io/ra16-lifecycle-http-watches/)
+[![Build status](https://ci.appveyor.com/api/projects/status/384snthluwofpwg7?svg=true)](https://ci.appveyor.com/project/errand/ra16-composition-collapse)
 
 
+[GH Pages](https://errand.github.io/ra16-composition-collapseo/)
 ## Available Scripts
 
 In the project directory, you can run:

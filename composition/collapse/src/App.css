@@ -1,0 +1,32 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:400,700);
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    font: 14px/20px "Lato", Arial, sans-serif;
+    margin: 0;
+    height: 100%;
+}
+
+#app {
+    height: 100%;
+}
+
+.collapse .body {
+    transition: max-height 0.26s ease;
+    overflow: hidden;
+}
+
+[data-collapse="true"] .body {
+    max-height: 0;
+}
+
+[data-collapse="false"] .body {
+    max-height: 200px;
+}
