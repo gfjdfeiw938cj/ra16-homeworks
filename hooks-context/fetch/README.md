@@ -1,6 +1,3 @@
-[![Build status](https://ci.appveyor.com/api/projects/status/t6kkt79q7cg8nre6?svg=true)](https://ci.appveyor.com/project/errand/ra16-context-authentication)
-
-
 ## Available Scripts
 
 In the project directory, you can run:
