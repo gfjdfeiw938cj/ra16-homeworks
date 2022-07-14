@@ -1,6 +1,8 @@
 import PropTypes from 'prop-types'
 
 export default function Card({title, text, link, ...props}) {
+  console.log(props)
+
   return (
     <div className="col-3">
       <div className="card">

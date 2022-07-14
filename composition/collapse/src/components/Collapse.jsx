@@ -1,7 +1,7 @@
 import {useState} from "react";
 
 export default function Collapse(props) {
-
+console.log(props)
   const [collapse, setCollapse] = useState(true)
 
   const collapsedLabel = props.collapsedLabel ? props.collapsedLabel : 'Развернуть '
